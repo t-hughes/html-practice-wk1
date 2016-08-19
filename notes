@@ -1,0 +1,55 @@
+**don't have apps or applications that do cool stuff but look like crap. not very often you get a backend job coming out of bootcamp.
+Front end work is important - pay attention to detail - make sure it doesn't look like crap.
+Not going to learn design, going to learn code-how to make a site look good if we don't learn design?-grab design examples/inspiration from other successful companies and mimic them
+i.e. If you are doing an e-commerce page then find a nice e-commerce page to get inspiration from
+i.e. Etsy - really good at AB testing
+
+HTML <></>
+<ol> - ordered list -  not generally used on modern sites
+<ul> - unordered list - not generally used on modern sites
+<p> paragraph
+<div> - most popular *use instead of a p tag - forces a break by default.
+divs box things in. structures your content in it's own group/box
+<a href=""</a> links
+<img src=""> images
+<span></span> wrapper that wont face a break - stays inline
+
+CSS - inline
+style="color: " -this can be put right in HTML opening tag of a header or p-called inline styling
+*dont typically do inline-it just adds more code, looks messy, gets confusing when needing to debug, taxing on browsers to load
+
+CSS {}:;
+Link it in the HTML in the <head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+Box model - look at the chrome dev tools for box reference
+
+Margin Margin Margin Margin
+Border Border Border Border Border
+Padding Padding Padding Padding
+Text Text Text Text Text Text
+Padding Padding Padding Padding
+Border Border Border Border Border
+Margin Margin Margin Margin Margin
+
+* {
+  box-sizing: border-box
+}
+
+This applies the sizing to the entire div and the entire CSS code
+
+Classes and IDs
+-ID is more specific than class. They are unique identifiers
+-To give an ID a class in CSS you do a # rather than a .
+-Do not repeat IDs in HTML
+Should be fine using classes
+if you need to be very specific - use
+
+
+Notes in class 8.18.16
+
+*Normalized CSS - look up
+
+CSS tricks -
+
+flex box - new way to position elements. makes positioning a ton easier

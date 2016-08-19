@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.left {
+  background-color: #FFAA2B;
+  width: 50%;
+  height: 650px;
+  float: left;
+  text-align: center;
+  padding-top: 16%;
+}
+
+.right {
+  background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/SKV04YX0YZ.jpg");
+  width: 50%;
+  height: 650px;
+  float: right;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
